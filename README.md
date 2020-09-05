@@ -36,3 +36,6 @@ run from command prompt
 python anagram_finder.py 
 
 ## Demo:
+![s1](https://user-images.githubusercontent.com/66070119/92314270-349e9980-ef9b-11ea-9c92-3befc7687202.png)
+![s2](https://user-images.githubusercontent.com/66070119/92314274-3c5e3e00-ef9b-11ea-9e20-020eeab3007a.png)
+
