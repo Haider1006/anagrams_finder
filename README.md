@@ -4,16 +4,15 @@ An anagram is a word, phrase, or name formed by rearranging the letters of anoth
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing urposes. See deployment for notes on how to deploy the project on a live system.
-Download the py file and upload it to your jupyter notebook and you are good to go.
+Download the anagrams_finder.py file and you are good to go.
 
 ## Prerequisites
 
-What things you need to install the software and how to install them
 python 3 (preferably)
 jupyter notebook (optional)
 Dictionary.txt file
 Libraries Needed: time, collection, test 
+
 ## Code Explained:
 1. Define a function word_sort
 --This takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to the lower case.
