@@ -21,12 +21,12 @@ Libraries Needed: time, collection, test <br/>
 ---This takes the "Dictionary.txt" filepath as input.<br/>
 To time the function process, calculate time using start time at the starting and stop time at the end of this function.<br/>
 Next, a blank dictionary wordlist is taken. <br/>
-The iterate the whole txt file fetching one line each time, sorting the word and putting it to the Python Dictionary (wordlist).<br/>
+Then iterate the whole txt file fetching one line each time, sorting the word and putting it to the Python Dictionary (wordlist).<br/>
 Print the length of the word list to see how many words have been loaded. It should load 235886 words from the text file to the user defined dictionary.<br/>
 Also, print the time it took to load the dictionary.<br/>
 
 3. Driver function<br/>
---- Load the wordlist defined, take a blanklist(anagrams), iterate over the dictionary using enumeration and check the sorted_input word with the<br/>
+--- Load the wordlist defined, take a blanklist(anagrams), iterate over the dictionary using enumeration and check the sorted_input word with the
 value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise, prints no anagram found, exit only when prompted. <br/>
 
 ## Installing
