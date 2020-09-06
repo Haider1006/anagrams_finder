@@ -50,13 +50,14 @@ When the anagram finder application is initialized, the user sees the below welc
 
 The user can input the search word into the terminal and check if the word has anagrams or not: <br/>
 
+To exit the application, the user can type in 'exit' as input. The application will exit.
+
 ![image](https://user-images.githubusercontent.com/66070119/92318810-2b332280-efd7-11ea-99c7-7ac39a7e4efc.png) <br/>
 
 The output of the anagram finder application:
 
 1. Displays the anagrams when found along with the time taken
 2. Displays no anagrams found when anagrams do not exist along with the time taken
-3. Exits the notebook when search word entered is exit
 
 ## Future Optimization Scope
 To further optimize the present technique, the dictionary can be sorted based on the length of words. Given the length of the word to be searched, we can extract only the words that have the same length as the searched string from the dictionary. This will enhance the speed of finding the anagram as we will only iterate over the section of words which match the length of the search word.
