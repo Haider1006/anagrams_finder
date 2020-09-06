@@ -24,16 +24,23 @@ To setup the project to run locally on your system, you need to install/download
 This function takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to lower case.<br/>
 
 ###### 2. Define a function load_words<br/>
-This function takes the "Dictionary.txt" filepath as input.<br/>
-To time the function process, calculate time using start time at the starting and stop time at the end of this function.<br/>
-Next, a blank dictionary wordlist is taken. <br/>
-Then iterate the whole txt file fetching one line each time, sorting the word and putting it to the Python Dictionary (wordlist).<br/>
-Print the length of the word list to see how many words have been loaded. It should load 235886 words from the text file to the user defined dictionary.<br/>
-Also, print the time it took to load the dictionary.<br/>
+This function accepts a single parameter which is the filepath of the "Dictionary.txt" file as input.<br/>
+
+To include the output timings of the time taken to load the dictionary and the time taken to check if the search word is anagram or not, calculate the time using start-time at the starting and stop-time at the end of this function.<br/>
+
+Next, an empty dictionary wordlist is initialized. <br/>
+
+Then iterate over the complete "dictionary.txt" file fetching one line each time, sorting the word and putting it to the Python Dictionary (wordlist).<br/>
+
+To keep a track of the count of words in the dictionary, print the length of the word list to see how many words have been loaded. It should load 235886 words from the text file to the user defined dictionary.<br/>
+
+In the end, print the time it took to load the dictionary.<br/>
 
 ###### 3. Driver function<br/>
-Load the wordlist defined, take a blanklist(anagrams), iterate over the dictionary using enumeration and check the sorted_input word with the
-value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise, prints no anagram found, exit only when prompted. <br/>
+Load the wordlist created, take a blanklist(anagrams), iterate over the dictionary using enumeration and check the sorted_input word with the
+value in the dictionary. Wherever there is a match, it adds the word to the blanklist. 
+
+Else, it prints no anagram found along with the time taken, or it exits the application when exit is prompted. <br/>
 
 ## Installing
 
