@@ -1,6 +1,7 @@
-# Anagram Finder Programming
+# **Anagram Finder Programming**
 
-An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
+An anagram is a word, phrase, or name formed by rearranging letters of the original word to make a new word. Examples of an anagram are below:
+State = Taste
 
 ## Getting Started
 
