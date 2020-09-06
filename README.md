@@ -39,7 +39,7 @@ value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise,
 
 - Open the terminal/command prompt
 - Navigate to the directory where you downloaded anagrams_finder/src
-- run from command prompt<br/>
+- run the below command from command prompt<br/>
     python anagram_finder.py <br/>
 
 ## Demo:
@@ -47,5 +47,5 @@ value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise,
 ![image](https://user-images.githubusercontent.com/66070119/92318810-2b332280-efd7-11ea-99c7-7ac39a7e4efc.png)
 
 ## Optimization Future Scope
-To further optimize the present technique, the dictionary can be sorted based on the length of words. Given the length of the word to be searched, we can extract only the words with has the same length as the searched string from the dictionary. This will enhance the speed of finding the anagram as we will only iterate over the section of words which match the length of the search word.
+To further optimize the present technique, the dictionary can be sorted based on the length of words. Given the length of the word to be searched, we can extract only the words that have the same length as the searched string from the dictionary. This will enhance the speed of finding the anagram as we will only iterate over the section of words which match the length of the search word.
 
