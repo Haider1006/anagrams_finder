@@ -1,7 +1,11 @@
 # **Anagram Finder Programming**
 
 An anagram is a word, phrase, or name formed by rearranging letters of the original word to make a new word. Examples of an anagram are below:
-State = Taste
+
+1. State : Taste
+2. Cinema : Iceman
+
+The purpose of this anagram finder is to find if the search word has anagrams or not.
 
 ## Getting Started
 
@@ -9,14 +13,15 @@ Download the anagram.py file and the dictionary.txt file and you are good to go.
 
 ## Prerequisites
 
-python 3 (preferably)<br/>
-jupyter notebook (optional)<br/>
-Dictionary.txt file<br/>
-Libraries Needed: time, collection, test <br/>
+To setup the project to run locally on your system, you need to install/download the following softwares and files:
+1. python 3 (preferably)<br/>
+2. jupyter notebook or spyder (optional)<br/>
+3. Dictionary.txt file<br/>
+4. Python Libraries Needed: time, collection, test <br/>
 
 ## Code Explained:
-1. Define a function word_sort<br/>
---This takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to the lower case.<br/>
+1. Define a python function word_sort<br/>
+--This takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to lower case.<br/>
 
 2. Define a function load_words<br/>
 ---This takes the "Dictionary.txt" filepath as input.<br/>
@@ -41,6 +46,6 @@ value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise,
 ![image](https://user-images.githubusercontent.com/66070119/92318733-3b96cd80-efd6-11ea-955c-0b705217bf6e.png)
 ![image](https://user-images.githubusercontent.com/66070119/92318810-2b332280-efd7-11ea-99c7-7ac39a7e4efc.png)
 
-## Optimization Scope
-Given the length of the word to be searched, if we extract only those words which has the same length as the searched string, that would reduce the runtime by some extent.
+## Optimization Future Scope
+To further optimize the present technique, the dictionary can be sorted based on the length of words. Given the length of the word to be searched, we can extract only the words with has the same length as the searched string from the dictionary. This will enhance the speed of finding the anagram as we will only iterate over the section of words which match the length of the search word.
 
