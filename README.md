@@ -31,8 +31,10 @@ value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise,
 
 ## Installing
 
-run from command prompt<br/>
-python anagram_finder.py <br/>
+- Open the terminal/command prompt
+- Navigate to the directory where you downloaded anagrams_finder/src
+- run from command prompt<br/>
+    python anagram_finder.py <br/>
 
 ## Demo:
 ![s1](https://user-images.githubusercontent.com/66070119/92314270-349e9980-ef9b-11ea-9c92-3befc7687202.png)
