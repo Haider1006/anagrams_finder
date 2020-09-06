@@ -40,3 +40,6 @@ value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise,
 ![image](https://user-images.githubusercontent.com/66070119/92318733-3b96cd80-efd6-11ea-955c-0b705217bf6e.png)
 ![image](https://user-images.githubusercontent.com/66070119/92318810-2b332280-efd7-11ea-99c7-7ac39a7e4efc.png)
 
+## Optimization Scope
+Given the length of the word to be searched, if we extract only those words which has the same length as the searched string, that would reduce the runtime by some extent.
+
