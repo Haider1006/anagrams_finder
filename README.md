@@ -51,6 +51,6 @@ To further optimize the present technique, the dictionary can be sorted based on
 
 ## Author
 
-- Yadullah Haider <br/ >
+- Yadullah Haider <br/>
     Contact- yadhaider@gmail.com
 
