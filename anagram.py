@@ -45,7 +45,6 @@ while True:
 #UnitTest
 class testAnagram(unittest.TestCase): 
   
-    # Returns True or False.  
     def test(self):
         result=word_sort('zygospore\n')
         expected='egooprsyz'
