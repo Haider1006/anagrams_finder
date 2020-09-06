@@ -20,10 +20,10 @@ To setup the project to run locally on your system, you need to install/download
 4. Python Libraries Needed: time, collection, test <br/>
 
 ## Code Explained:
-###### 1. Define a python function word_sort<br/>
+###### 1. Define a python function **word_sort**<br/>
 This function takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to lower case.<br/>
 
-###### 2. Define a function load_words<br/>
+###### 2. Define a function **load_words**<br/>
 This function accepts a single parameter which is the filepath of the "Dictionary.txt" file as input.<br/>
 
 To include the output timings of the time taken to load the dictionary and the time taken to check if the search word is anagram or not, calculate the time using start-time at the starting and stop-time at the end of this function.<br/>
