@@ -28,13 +28,11 @@ This function accepts a single parameter which is the filepath of the "Dictionar
 
 To include the output timings of the time taken to load the dictionary and the time taken to check if the search word is anagram or not, calculate the time using start-time at the starting and stop-time at the end of this function.<br/>
 
-Next, an empty dictionary wordlist is initialized. <br/>
+Next, an empty dictionary wordlist is initialized. The function then, iterates over the complete "dictionary.txt" file fetching one line each time, sorting the word and putting it to the Python Dictionary (wordlist).<br/>
 
-Then iterate over the complete "dictionary.txt" file fetching one line each time, sorting the word and putting it to the Python Dictionary (wordlist).<br/>
+To keep a track of the count of words in the dictionary, the function prints the length of the word list to see how many words have been loaded. It should load 235886 words from the text file to the user defined dictionary.<br/>
 
-To keep a track of the count of words in the dictionary, print the length of the word list to see how many words have been loaded. It should load 235886 words from the text file to the user defined dictionary.<br/>
-
-In the end, print the time it took to load the dictionary.<br/>
+In the end, the function prints the time taken to load the dictionary.<br/>
 
 ###### 3. Driver function<br/>
 Load the wordlist created, take a blanklist(anagrams), iterate over the dictionary using enumeration and check the sorted_input word with the
