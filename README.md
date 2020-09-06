@@ -37,6 +37,6 @@ value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise,
     python anagram_finder.py <br/>
 
 ## Demo:
-![s1](https://user-images.githubusercontent.com/66070119/92314270-349e9980-ef9b-11ea-9c92-3befc7687202.png)
-![s2](https://user-images.githubusercontent.com/66070119/92314274-3c5e3e00-ef9b-11ea-9e20-020eeab3007a.png)
+![image](https://user-images.githubusercontent.com/66070119/92318733-3b96cd80-efd6-11ea-955c-0b705217bf6e.png)
+![image](https://user-images.githubusercontent.com/66070119/92318810-2b332280-efd7-11ea-99c7-7ac39a7e4efc.png)
 
