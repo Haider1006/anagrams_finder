@@ -9,7 +9,7 @@ The purpose of this anagram finder is to find if the search word has anagrams or
 
 ## Getting Started
 
-Download the anagram.py file and the dictionary.txt file and you are good to go.
+Download the anagram.py file and the dictionary.txt file in your local and you are good to go.
 
 ## Prerequisites
 
@@ -21,10 +21,10 @@ To setup the project to run locally on your system, you need to install/download
 
 ## Code Explained:
 ###### 1. Define a python function word_sort<br/>
-This takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to lower case.<br/>
+This function takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to lower case.<br/>
 
 ###### 2. Define a function load_words<br/>
-This takes the "Dictionary.txt" filepath as input.<br/>
+This function takes the "Dictionary.txt" filepath as input.<br/>
 To time the function process, calculate time using start time at the starting and stop time at the end of this function.<br/>
 Next, a blank dictionary wordlist is taken. <br/>
 Then iterate the whole txt file fetching one line each time, sorting the word and putting it to the Python Dictionary (wordlist).<br/>
