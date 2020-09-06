@@ -44,7 +44,7 @@ Else, it prints no anagram found along with the time taken, or it exits the appl
 - Open the terminal/command prompt
 - Navigate to the directory where you have downloaded anagrams_finder/src
 - Run the below command from command prompt<br/>
-    python anagram_finder.py <br/>
+    python anagram.py <br/>
 
 ## Demo:
 
@@ -60,6 +60,7 @@ The output of the anagram finder application:
 
 1. Displays the anagrams when found along with the time taken
 2. Displays no anagrams found when anagrams do not exist along with the time taken
+3. On hitting exit, it will end and the unit test case would run.
 
 ## Future Optimization Scope
 To further optimize the present technique, the dictionary can be sorted based on the length of words. Given the length of the word to be searched, we can extract only the words that have the same length as the searched string from the dictionary. This will enhance the speed of finding the anagram as we will only iterate over the section of words which match the length of the search word.
