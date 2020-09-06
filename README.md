@@ -4,7 +4,7 @@ An anagram is a word, phrase, or name formed by rearranging the letters of anoth
 
 ## Getting Started
 
-Download the anagrams_finder.py file and you are good to go.
+Download the anagram.py file and the dictionary.txt file and you are good to go.
 
 ## Prerequisites
 
