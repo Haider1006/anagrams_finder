@@ -16,8 +16,9 @@ Download the anagram.py file and the dictionary.txt file in your local and you a
 To setup the project to run locally on your system, you need to install/download the following softwares and files:
 1. python 3 (preferably)<br/>
 2. jupyter notebook or spyder (optional)<br/>
-3. Dictionary.txt file<br/>
-4. Python Libraries Needed: time, collection, test <br/>
+3. Anagram.py
+4. Dictionary.txt file<br/>
+5. Python Libraries Needed: time, collection, test <br/>
 
 ## Code Explained:
 ###### 1. Define a python function word_sort<br/>
