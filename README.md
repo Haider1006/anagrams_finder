@@ -52,7 +52,7 @@ The user can input the search word into the terminal and check if the word has a
 
 ![image](https://user-images.githubusercontent.com/66070119/92318810-2b332280-efd7-11ea-99c7-7ac39a7e4efc.png) <br/>
 
-The output:
+The output of the anagram finder application:
 
 1. Displays the anagrams when found along with the time taken
 2. Displays no anagrams found when anagrams do not exist along with the time taken
