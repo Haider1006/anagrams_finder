@@ -50,13 +50,11 @@ Else, it prints no anagram found along with the time taken, or it exits the appl
 
 When the anagram finder application is initialized, the user sees the below welcome page: <br/>
 
-![image](https://user-images.githubusercontent.com/66070119/92318733-3b96cd80-efd6-11ea-955c-0b705217bf6e.png) <br/>
-
 The user can input the search word into the terminal and check if the word has anagrams or not. <br/>
 
 To exit the application, the user can type in 'exit' as input. The application will exit. 
 
-![image](https://user-images.githubusercontent.com/66070119/92318810-2b332280-efd7-11ea-99c7-7ac39a7e4efc.png) <br/>
+![image](https://user-images.githubusercontent.com/66070119/92320214-718f7e00-efe5-11ea-9417-3c057c6e840c.png) <br/>
 
 The output of the anagram finder application:
 
