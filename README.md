@@ -21,10 +21,10 @@ To setup the project to run locally on your system, you need to install/download
 
 ## Code Explained:
 ###### 1. Define a python function word_sort<br/>
--- This takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to lower case.<br/>
+- This takes one word input and sorts that word alphabetically, removing spacing(\n) and converting it to lower case.<br/>
 
 ###### 2. Define a function load_words<br/>
---- This takes the "Dictionary.txt" filepath as input.<br/>
+- This takes the "Dictionary.txt" filepath as input.<br/>
 To time the function process, calculate time using start time at the starting and stop time at the end of this function.<br/>
 Next, a blank dictionary wordlist is taken. <br/>
 Then iterate the whole txt file fetching one line each time, sorting the word and putting it to the Python Dictionary (wordlist).<br/>
@@ -32,7 +32,7 @@ Print the length of the word list to see how many words have been loaded. It sho
 Also, print the time it took to load the dictionary.<br/>
 
 ###### 3. Driver function<br/>
---- Load the wordlist defined, take a blanklist(anagrams), iterate over the dictionary using enumeration and check the sorted_input word with the
+- Load the wordlist defined, take a blanklist(anagrams), iterate over the dictionary using enumeration and check the sorted_input word with the
 value in the dictionary, wherever it finds, it adds to the blanklist. Otherwise, prints no anagram found, exit only when prompted. <br/>
 
 ## Installing
